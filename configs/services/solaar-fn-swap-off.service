@@ -1,0 +1,19 @@
+[Unit]
+Description=Disable Fn-Swap on Logitech device
+After=display-manager.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/solaar config 0 fn-swap off
+RemainAfterExit=yes
+# Security measures while still running as root
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+NoNewPrivileges=yes
+RestrictAddressFamilies=AF_UNIX AF_NETLINK
+ReadWritePaths=/dev /sys
+CapabilityBoundingSet=CAP_SYS_ADMIN
+
+[Install]
+WantedBy=multi-user.target
