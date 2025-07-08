@@ -65,7 +65,7 @@ bindsym $mod+q exec konsole
 #bindsym $mod+Return exec konsole
 
 # start a browser
-bindsym $mod+b exec firefox
+bindsym $mod+b exec vivaldi
 
 # kill focused window
 bindsym $mod+c kill
