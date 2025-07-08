@@ -1,0 +1,19 @@
+[Desktop Entry]
+DefaultProfile=custom.profile
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Notification Messages]
+ShowPasteHugeTextWarning=false
+
+[TabBar]
+CloseTabButton=None
+TabBarPosition=Bottom
+
+[UiSettings]
+ColorScheme=
