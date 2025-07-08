@@ -1,3 +1,3 @@
 #!/usr/bin/sh
 pacman -Syu
-pacman -S fish clipcat i3-wm polybar flameshot
+pacman -S fish clipcat i3-wm polybar flameshot physlock
