@@ -37,3 +37,9 @@
 configuration {
     font: "Source Code Pro 20";
 }
+
+window {
+    width: 50%;
+    height: 70%;
+}
+
