@@ -1,3 +1,3 @@
 #!/usr/bin/sh
 pacman -Syu
-pacman -S fish
+pacman -S fish clipcat
