@@ -6,6 +6,8 @@ After=display-manager.service
 Type=oneshot
 ExecStart=/usr/bin/solaar config 0 fn-swap off
 RemainAfterExit=yes
+Restart=on-failure
+RestartSec=5s
 # Security measures while still running as root
 ProtectSystem=strict
 ProtectHome=yes
